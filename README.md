@@ -3,6 +3,8 @@
 
     Your project name, team name and team member(s) 
 
+    Kaden C & Collin F
+
     Describe what you are trying to build, why do you want to build it, what it will be useful for, how it will be used, etc. 
 
     (Important) Draw initial UML class diagram.
