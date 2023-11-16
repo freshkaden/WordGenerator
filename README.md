@@ -5,8 +5,49 @@
 
     Kaden C & Collin F
 
-    Describe what you are trying to build, why do you want to build it, what it will be useful for, how it will be used, etc. 
+    Our Project is based on the word game the New York Times Spelling Bee which is a game where you have 7 different letters one of which being in the middle and you have to make several words with only the letters given and it can only be 4 letters and above. 
 
-    (Important) Draw initial UML class diagram.
+    +------------------------+
+| New_York_Spelling_Bee  |
++------------------------+
+| - validWords: Set<String> |
+| - centerLetter: String    |
+| - otherLetters: Set<String> |
++------------------------+
+| + main(String[])       |
+| + initializeGame()     |
+| + loadValidWords(String) |
+| + playGame()           |
+| + isValidWord(String): boolean |
+| + getPlayerInput(): String |
++------------------------+
 
-    Plan and estimate of effort.
+      ^
+      |
+      |
++------------------------+
+|    Board               |
++------------------------+
+|                        |
++------------------------+
+
+      ^
+      |
+      |
++------------------------+
+|    Dictionary          |
++------------------------+
+|                        |
++------------------------+
+
+      ^
+      |
+      |
++------------------------+
+|    Player              |
++------------------------+
+|                        |
++------------------------+
+
+
+    We plan this should take a little over 2 weeks. 
