@@ -1,0 +1,102 @@
+package project;
+
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+public class SpellingBeeGUI extends JFrame {
+    private Set<String> validWords = new HashSet<>();
+    private String centerLetter;
+    private Set<String> otherLetters = new HashSet<>();
+
+    private JLabel messageLabel;
+    private JTextField inputField;
+    private JButton submitButton;
+
+    public SpellingBeeGUI() {
+        initializeGame();
+        createGUI();
+    }
+
+    private void initializeGame() {
+        // Load a list of valid English words into the 'validWords' set (not provided here).
+        // Set the 'centerLetter' and 'otherLetters' according to the puzzle.
+        loadValidWords("C:\\Users\\Collin Follett\\eclipse-workspace\\project\\src\\project\\valid_answers.txt");
+        centerLetter = "R";
+        otherLetters.add("A");
+        otherLetters.add("B");
+        otherLetters.add("C");
+        otherLetters.add("D");
+        otherLetters.add("K");
+        otherLetters.add("Y");
+    }
+
+    private void loadValidWords(String filePath) {
+        try (BufferedReader reader = new BufferedReader(new FileReader(filePath))) {
+            String line;
+            while ((line = reader.readLine()) != null) {
+                validWords.add(line.trim().toUpperCase());
+            }
+        } catch (IOException e) {
+            System.err.println("Error loading the word list file: " + e.getMessage());
+        }
+    }
+
+    private void createGUI() {
+        // Set up the JFrame
+        setTitle("New York Spelling Bee");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(400, 200);
+        setLocationRelativeTo(null);
+
+        // Create components
+        messageLabel = new JLabel("Enter a word (or 'exit' to quit):");
+        inputField = new JTextField();
+        submitButton = new JButton("Submit");
+
+        // Set layout manager
+        setLayout(new java.awt.GridLayout(3, 1));
+
+        // Add components to the JFrame
+        add(messageLabel);
+        add(inputField);
+        add(submitButton);
+
+        // Add action listener to the submit button
+        submitButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                processUserInput();
+            }
+        });
+    }
+
+    private void processUserInput() {
+        String word = inputField.getText().trim();
+        if (word.equalsIgnoreCase("exit")) {
+            System.exit(0);
+        }
+        if (isValidWord(word)) {
+            messageLabel.setText("Valid word: " + word);
+        } else {
+            messageLabel.setText("Invalid word: " + word);
+        }
+        inputField.setText(""); // Clear the input field
+    }
+
+    private boolean isValidWord(String word) {
+        // Implementation of the isValidWord method (same as in your original code)
+        // ...
+
+        return validWords.contains(word);
+    }
+
+    public static void main(String[] args) {
+        SwingUtilities.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                new SpellingBeeGUI().setVisible(true);
+            }
+        });
+    }
+}
