@@ -2,6 +2,7 @@
 <img src="https://github.com/freshkaden/WordGenerator/assets/66493708/d9026236-241d-466b-bb20-02766f09caef" />
 
 
+<h2 align="left">Authors</h2>
 Authors
 Kaden
 Collin
