@@ -10,11 +10,11 @@ Collin F
 This Java Project is an implementation of the New York Times Spelling Bee game using JavaFX. The game challenges players to construct words using a set of letters, with a specific letter at the center. The goal is to create valid words, adhering to certain rules.
 
 <h2 align="left">Features</h2>
-Word validation and recognition
-Counting correct and incorrect words
-Displaying a list for correct words entered, and a list for incorret words entered
-Special recognition if user enters a pangram (word using all the letters)
-Simple and easy to use graphical interface
+- Word validation and recognition
+- Counting correct and incorrect words
+- Displaying a list for correct words entered, and a list for incorret words entered
+- Special recognition if user enters a pangram (word using all the letters)
+- Simple and easy to use graphical interface
 Usage
 Clone the Repository:
 bash
