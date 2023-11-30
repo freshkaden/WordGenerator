@@ -17,7 +17,7 @@ This Java Project is an implementation of the New York Times Spelling Bee game u
 - Simple and easy to use graphical interface
 
 
-<h2 align="left">Usage</h2>
+<h2 align="left">Download</h2>
 Clone the Repository:
 bash
 Copy code
