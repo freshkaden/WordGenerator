@@ -15,9 +15,6 @@ This Java Project is an implementation of the New York Times Spelling Bee game u
 - Displaying a list for correct words entered, and a list for incorret words entered
 - Special recognition if user enters a pangram (word using all the letters)
 - Simple and easy to use graphical interface
-- George Washington
-* John Adams
-+ Thomas Jefferson
 Usage
 Clone the Repository:
 bash
