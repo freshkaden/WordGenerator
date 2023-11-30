@@ -48,6 +48,7 @@ JavaFX library
 - expanding beyond preset letters of ABCDRKY
 - make the javafx vbox and hbox more adaptable to smaller screen sizes using adjustable padding
 - repeated correct words dont count against score, but repeated incorrect words currently do
+- make the code more clean and organized
 
 
 
