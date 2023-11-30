@@ -22,10 +22,13 @@ Copy code
 git clone https://github.com/freshkaden/WordGenerator.git
 cd project
 
-Run the Application:
+<h2 align="left">How To Play</h2>
 
 Open the project in your favorite Java IDE.
 Locate the SpellingBee class and run the main method.
+Enter words in the provided input field.
+Press Enter to submit the word.
+Make sure your word follows the rules!
 
 Game Rules:
 Construct words using at least 4 letters.
@@ -34,15 +37,9 @@ Recognizes pangrams (words using all available letters).
 Exiting the Game:
 Type "exit" in the input field to exit the application.
 
-Dependencies
+<h2 align="left">Dependencies</h2>
 Java 8 or higher
 JavaFX library
-
-How to Play
-Launch the application.
-Enter words in the provided input field.
-Press Enter to submit the word.
-Follow the game rules mentioned above.
 
 
 
