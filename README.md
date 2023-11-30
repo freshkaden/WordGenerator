@@ -46,7 +46,7 @@ JavaFX library
 <h2 align="left">Further Improvements</h2>
 - error handling for user entering space instead of letters so it will not count against their score,
 - expanding beyond preset letters of ABCDRKY
-- make the vbox more adaptable to smaller screen sizes
+- make the javafx vbox and hbox more adaptable to smaller screen sizes, adjustable padding
 - repeated correct words dont count against score, but repeated incorrect words currently do
 
 
