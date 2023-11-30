@@ -12,9 +12,9 @@ This Java Project is an implementation of the New York Times Spelling Bee game u
 <h2 align="left">Features</h2>
 Word validation and recognition
 Counting correct and incorrect words
-Displaying correct words entered
-Pangram recognition
-Simple GUI with a desaturated yellow background
+Displaying a list for correct words entered, and a list for incorret words entered
+Special recognition if user enters a pangram (word using all the letters)
+Simple and easy to use graphical interface
 Usage
 Clone the Repository:
 bash
