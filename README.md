@@ -3,8 +3,8 @@
 
 
 <h2 align="left">Authors</h2>
-Kaden
-Collin
+Kaden C,
+Collin F
 
 <h2 align="left">Description</h2>
 This Java Project is an implementation of the New York Times Spelling Bee game using JavaFX. The game challenges players to construct words using a set of letters, with a specific letter at the center. The goal is to create valid words, adhering to certain rules.
