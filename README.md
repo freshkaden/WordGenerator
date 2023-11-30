@@ -43,7 +43,11 @@ Type "exit" in the input field to exit the application.
 Java 8 or higher
 JavaFX library
 
-
+<h2 align="left">Further Improvements</h2>
+- error handling for user entering space instead of letters so it will not count against their score,
+- expanding beyond preset letters of ABCDRKY
+- make the vbox more adaptable to smaller screen sizes
+- repeated correct words dont count against score, but repeated incorrect words currently do
 
 
 
