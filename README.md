@@ -24,7 +24,7 @@ cd project
 Run the Application:
 
 Open the project in your favorite Java IDE.
-Locate the spellopy class and run the main method.
+Locate the SpellingBee class and run the main method.
 
 Game Rules:
 Construct words using at least 4 letters.
