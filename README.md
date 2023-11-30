@@ -1,4 +1,6 @@
 New York Times Spelling Bee
+![image](https://github.com/freshkaden/WordGenerator/assets/66493708/d9026236-241d-466b-bb20-02766f09caef)
+
 
 Authors
 Kaden
