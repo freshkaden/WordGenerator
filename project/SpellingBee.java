@@ -134,8 +134,8 @@ public class SpellingBee extends Application {
                 new Label("A"),
                 new Label("B"),
                 new Label("C"),
-                new Label("D"),
                 createBoldLabel(centerLetter), // Center letter in bold
+                new Label("D"),
                 new Label("K"),
                 new Label("Y")
         );
