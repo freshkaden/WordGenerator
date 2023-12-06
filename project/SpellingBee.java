@@ -1,8 +1,6 @@
 package project;
 
-import javafx.animation.KeyFrame;
 import javafx.animation.PauseTransition;
-import javafx.animation.Timeline;
 import javafx.application.Application;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
@@ -10,14 +8,8 @@ import javafx.scene.Scene;
 import javafx.scene.control.*;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.VBox;
-import javafx.scene.paint.Color;
-import javafx.scene.text.Font;
-import javafx.scene.text.FontWeight;
-import javafx.scene.text.TextFlow;
 import javafx.stage.Stage;
 import javafx.util.Duration;
-import javafx.scene.text.Text;
-import javafx.scene.text.TextFlow;
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -26,6 +18,8 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
+
+//***ensure the word list file path is set correctly in line 152****
 
 public class SpellingBee extends Application {
     private TextField inputField;
@@ -155,7 +149,7 @@ public class SpellingBee extends Application {
 
         // path to valid word set list file
         // -------------------------------------------------------
-        loadValidWords("C:\\Users\\kaden\\OneDrive\\Documents\\java\\ajdwad\\project\\test.txt");
+        loadValidWords("C:\\Users\\ecollege\\Documents\\Fall 2023\\CSI 2300\\java\\fix\\project\\test.txt");
         //--------------------------------------------------------
 
         // set up the letters for the game
